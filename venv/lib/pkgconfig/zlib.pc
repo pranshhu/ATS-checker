@@ -1,0 +1,13 @@
+prefix=/Users/pranshu/Desktop/ATS-checker/venv
+exec_prefix=/Users/pranshu/Desktop/ATS-checker/venv
+libdir=/Users/pranshu/Desktop/ATS-checker/venv/lib
+sharedlibdir=/Users/pranshu/Desktop/ATS-checker/venv/lib
+includedir=/Users/pranshu/Desktop/ATS-checker/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
